@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>css-frameworks</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+
+                <ul class="nav navbar-nav">
+                	<li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">PAGES</a>
+                    </li>
+                    <li>
+                        <a href="#">FEATURES</a>
+                    </li>
+                    <li>
+                        <a href="#">MEGA MENU</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                    <li class="dropdown pull-right searchbox hover">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-search"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <form id="search" class="navbar-form search" role="search">
+                                <input type="search" class="form-control" placeholder="Type to search">
+                                <button type="submit" class="btn btn-default btn-submit icon-right-open">Search</button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="container">
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+              <div class="item active">
+                <img src="./images/slide_1.jpg" alt="Image">
+                <div class="carousel-caption item_1">
+                  <h2 class="subHeadText">MADE FOR DESIGNERS</h2>
+                  <h4 class="subScriptText">Create your online portfolio in minutes with the professionally and lovingly designed REEN</h4>
+                  <h4 class="subScriptText">website template. Customize your site with versatile and easy to use features.</h4>
+                  <button class="btn btn-primary btn-lg">GET STARTED NOW</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="./images/slide_2.jpg" alt="Image">
+                <div class="carousel-caption item_2">
+                  <div class="container text-right">
+                    <div class="row">
+                      <div class="col-md-7 col-md-offset-4 text-right">
+                        <h2 class="subHeadText">FRESH AND</h2>
+                        <h2 class="subHeadText">BEATIFUL DESIGN</h2>
+                    </div>
+                      <div class="col-md-9 col-md-offset-2 text-right">
+                        <h4 class="subScriptText">REEN is designed to showcase your talent and put your work in the forefront.</h4>
+                        <h4 class="subScriptText">Profesionally use of typography and layout that fits your content.</h4>
+                    </div>
+                      <div class="col-md-3 col-md-offset-8">
+                          <button class="btn btn-primary btn-lg">GET STARTED NOW</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="./images/slide_3.jpg" alt="Image">
+                <div class="carousel-caption item_3">
+                    <div class="container text-right">
+                      <div class="row">
+                        <div class="col-md-7 text-left thirdSlide">
+                          <h2 class="subHeadText">CLEAN AND</h2>
+                          <h2 class="subHeadText">REUSABLE CODE</h2>
+                      </div>
+                        <div class="col-md-8 text-left">
+                          <h4 class="subScriptText">The clean code allows you to easily copy code blocks from content</h4>
+                          <h4 class="subScriptText">modules and past them in different places or layouts</h4>
+                      </div>
+                        <div class="col-md-7 text-left">
+                            <button class="btn btn-primary btn-lg">GET STARTED NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="./images/slide_4.jpg" alt="Image">
+                <div class="carousel-caption item_4">
+                    <div class="container text-right">
+                      <div class="row">
+                        <div class="col-md-6 col-md-offset-5 text-right fourthSlide">
+                          <h2 class="subHeadText">JUST FOCUS ON</h2>
+                          <h2 class="subHeadText">YOUR CREATIVITY</h2>
+                      </div>
+                        <div class="col-md-7 col-md-offset-4 text-right">
+                          <h4 class="subScriptText">Take a break from messing around with heavy coding and spend</h4>
+                          <h4 class="subScriptText">your time brainstorming ideas for your next project.</h4>
+                      </div>
+                        <div class="col-md-3 col-md-offset-8">
+                            <button class="btn btn-primary btn-lg">GET STARTED NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="./images/slide_5.jpg" alt="Image">
+                <div class="carousel-caption item_5">
+                  <div>
+                      <h2 class="subHeadText">SHOWCASE</h2>
+                      <h2 class="subHeadText">YOUR CONTENT</h2>
+                  </div>
+                  <div>
+                      <h4 class="subScriptText">With REEN you have the possibility to create websites for various</h4>
+                      <h4 class="subScriptText">content quickly and easily. Now it's up to you!</h4>
+                  </div>
+                  <button class="btn btn-primary btn-lg">GET STARTED NOW</button>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control" href="#myCarousel" data-slide="prev">
+                        <i class="icon-chevron-left"></i>
+                    </a>
+            <a class="carousel-control" href="#myCarousel" data-slide="next">
+                        <i class="icon-chevron-right"></i>
+                    </a>
+        </section>
+
+        <section class="services">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                      <h1 class="headText">Beautiful. Clean. Responsive.</h1>
+                      <p>REEN is a high-quality solution for those who want a beautiful website in no time. It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <section>
+                        <div class="col-md-1">
+                            <div class="icon pull-right">
+                                <i class="glyphicon glyphicon-heart-empty"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="subHeadText">Passion</h2>
+                            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="col-md-1">
+                            <div class="icon pull-right">
+                                <i class="glyphicon icon-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="subHeadText">Creativity</h2>
+                            <p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="col-md-1">
+                            <div class="icon pull-right">
+                                <i class="glyphicon icon-star-empty" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="subHeadText">Quality</h2>
+                            <p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+
+            <section class="container text-center">
+              <h2 class="subHeadText">Check out our latest works</h2>
+              <p>
+                Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.
+              </p>
+              <div class="row">
+                <div class="col-sm-6 thumbs">
+                  <a href="#">
+                      <span class="lg-overlay"></span>
+                      <img src="./images/works_01.jpg" class="img-responsive" alt="Image">
+                  </a>
+                  <div class="subscript">
+                      <h4 class="subScriptText">Grand Motel gets an identity brushup</h4>
+                      <p>Identity</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 thumbs">
+                  <a href="#">
+                      <span class="lg-overlay"></span>
+                      <img src="./images/works_02.jpg" class="img-responsive" alt="Image">
+                  </a>
+                  <div class="subscript">
+                      <h4 class="subScriptText">Fresh branding for a creative startup</h4>
+                      <p>Identity</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="./images/works_03.jpg" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                  <img src="./images/works_04.jpg" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                  <img src="./images/works_05.jpg" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                  <img src="./images/works_06.jpg" class="img-responsive" alt="Image">
+                </div>
+
+                <div class="col-md-12 works_indicators">
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+              </div>
+            </section>
+        </section>
+
+        <section class="container">
+
+            <div class="row feedback">
+              <div class="inner text-center">
+                <div class="col-md-8 col-md-offset-2">
+                  <h1 class="headText">Want to works with us?</h1>
+                  <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                  <a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">GET IN TOUCH</a>
+                </div>
+
+                <!-- Modal window -->
+                <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h2 class="subHeadText" id="myModalLabel">We'd Love to Get Acquainted With You</h2>
+                      </div>
+                      <div class="modal-body">
+                        <form class="form-horizontal col-sm-12">
+                          <div class="form-group">
+                              <label>Name</label>
+                              <input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text">
+                          </div>
+                          <div class="form-group">
+                              <label>Message</label>
+                              <textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea>
+                          </div>
+                          <div class="form-group">
+                              <label>E-Mail</label>
+                              <input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text">
+                          </div>
+                          <div class="form-group">
+                              <label>Phone</label>
+                              <input class="form-control phone" placeholder="+375-29-840-77-84" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (+37529xxxxxxx)" type="text">
+                          </div>
+                          <div class="form-group">
+                              <button type="submit" class="btn btn-success pull-right">Send It!</button>
+                              <p class="help-block pull-left text-danger hide" id="form-error">The form is not valid.</p>
+                          </div>
+                          <div class="form-group">
+                              <button class="btn pull-right" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+                <div class="container inner">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 inner">
+                            <h4 class="subScriptText">WHO WE ARE</h4>
+                            <a href="#">
+                                <img src="./images/logo2.png" alt="">
+                            </a>
+                            <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                            <a href="#">More about us</a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 inner">
+                            <h4 class="subScriptText">LATEST WORKS</h4>
+                            <div class="row thumbs">
+                                <div class="col-md-6">
+                                    <figure>
+                                        <a href="#">
+                                            <span class="overlay"></span>
+                                            <img src="./images/latest_01.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure>
+                                        <a href="#">
+                                            <span class="overlay"></span>
+                                            <img src="./images/latest_02.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure>
+                                        <a href="#">
+                                            <span class="overlay"></span>
+                                            <img src="./images/latest_03.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure>
+                                        <a href="#">
+                                            <span class="overlay"></span>
+                                            <img src="./images/latest_04.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 inner">
+                            <h4 class="subScriptText">GET IN TOUCH</h4>
+                            <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+                            <ul class="contacts">
+                                <li>
+                                    <i class="icon-map-marker icon-large"></i>
+                                    <span>84 Street, City, State 24813</span>
+                                </li>
+                                <li>
+                                    <i class="icon icon-mobile-phone icon-large"></i>
+                                    <span>+00 (123) 456 78 90</span>
+                                </li>
+                                <li>
+                                    <i class="icon-envelope-alt"></i>
+                                    <a>info@reen.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 inner">
+                            <h4 class="subScriptText">FREE UPDATES</h4>
+                            <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                            <form class="newsletter" class="form-inline newsletter" role="form">
+                                <label class="sr-only" for="exampleInputEmail">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your email address">
+                                <button type="submit" class="btn btn-default btn-submit">SUBSCRIBE</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container inner">
+                        <p class="pull-left">© 2014 REEN. All rights reserved.</p>
+                        <ul class="footer-menu pull-right">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </footer>
+
+    <a class="scrollUp" href="#top" data-toggle="tooltip">
+        <i class="icon-chevron-up"></i>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
